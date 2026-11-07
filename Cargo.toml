@@ -1,0 +1,10 @@
+[package]
+name = "lseek"
+version = "0.1.0"
+edition = "2024"
+description = "The lseek Command Maps Data and Hole Ranges in Sparse Files Through Linux Seek Operations, with Byte Offsets and a Summary of Reported Extents"
+keywords = ["parsonlabs", "linux", "syscalls", "sparse-files"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+clap = { version = "=4.6.6", features = ["derive"] }
